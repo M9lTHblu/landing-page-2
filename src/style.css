@@ -5,6 +5,10 @@ a:focus-visible, button:focus-visible {
   outline: 4px solid greenyellow;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;

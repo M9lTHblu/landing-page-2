@@ -63,7 +63,9 @@ a, button {
     outline: 4px solid greenyellow;
   }
 }
-
+button {
+  cursor: pointer;
+}
 
   body {
     font-family: $family-montserrat;
