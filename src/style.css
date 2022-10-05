@@ -1,7 +1,7 @@
-a, button {
-  outline: revert;
+a:-moz-focusring, button:-moz-focusring {
+  outline: 4px solid greenyellow;
 }
-a:focus, button:focus {
+a:focus-visible, button:focus-visible {
   outline: 4px solid greenyellow;
 }
 

@@ -56,7 +56,9 @@ $primary: #83121b;
 
 
 a, button {
-
+  &:-moz-focusring {
+    outline: 4px solid greenyellow;
+  }
   &:focus-visible {
     outline: 4px solid greenyellow;
   }
