@@ -56,8 +56,8 @@ $primary: #83121b;
 
 
 a, button {
-  outline: revert;
-  &:focus {
+
+  &:focus-visible {
     outline: 4px solid greenyellow;
   }
 }

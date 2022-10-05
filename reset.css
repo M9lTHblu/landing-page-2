@@ -21,6 +21,7 @@
 
 /* Reapply the pointer cursor for anchor tags */
 a, button {
+    outline: revert;
     cursor: revert;
 }
 
